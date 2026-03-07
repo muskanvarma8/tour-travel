@@ -195,58 +195,144 @@ gap:10px;
 }
 
 }
+
+
+@media (max-width:500px){
+
+.footer-container{
+grid-template-columns:repeat(2,1fr); /* 2 columns */
+width:100%;
+gap:20px;
+padding:0 15px;
+}
+
+/* logo */
+.footer-col img{
+width:90%;
+height:auto;
+/* margin:0 auto 10px; */
+display:block;
+}
+
+/* text */
+.footer-col p{
+font-size:12px;
+line-height:1.5;
+text-align:center;
+}
+
+/* headings */
+.footer-col h3{
+font-size:16px;
+margin-bottom:15px;
+}
+
+/* list */
+.footer-col ul li{
+font-size:13px;
+margin-bottom:8px;
+}
+
+/* contact section */
+.contact{
+margin-left:0;
+justify-content:center;
+text-align:center;
+font-size:12px;
+}
+
+/* phone */
+.phone{
+font-size:18px;
+text-align:center;
+}
+
+/* social icons */
+.social{
+justify-content:center;
+margin-left:0;
+}
+
+.social svg{
+padding:8px;
+}
+
+/* bottom */
+.footer-bottom{
+flex-direction:column;
+text-align:center;
+gap:8px;
+font-size:12px;
+}
+
+}
+
 @media (max-width:400px){
 
 .footer-container{
-grid-template-columns:repeat(2,1fr);
-/* text-align:center; */
-width: 100%;
-gap: 0;
-/* margin-bottom: 20px; */
-
+grid-template-columns:repeat(2,1fr); /* 2 columns */
+width:100%;
+gap:20px;
+padding:0 15px;
 }
 
-.footer-col{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    /* gap: 40px; */
-    /* margin-left: -10px; */
-}
-.contact {
-/* justify-content:center; */
-text-align: center;
-/* margin-left: 30px; */
-
+/* logo */
+.footer-col img{
+width:90%;
+height:auto;
+/* margin:0 auto 10px; */
+display:block;
 }
 
-.social{
-justify-content:center;
-}
-.footer-bottom{
-    margin-top: -40px;
-}
-
-/* .footer-bottom{
-flex-direction:column;
+/* text */
+.footer-col p{
+font-size:12px;
+line-height:1.5;
 text-align:center;
-gap:10px;
-} */
-/* .footer-col p{
-font-size:14px;
-line-height:1.7;
-
-color:#fbf8f8;
-
-} */
+}
 
 /* headings */
+.footer-col h3{
+font-size:16px;
+margin-bottom:15px;
+}
 
-/* .footer-col h3{
-color:#d4a437;
-margin-bottom:20px;
+/* list */
+.footer-col ul li{
+font-size:13px;
+margin-bottom:8px;
+}
+
+/* contact section */
+.contact{
+margin-left:0;
+justify-content:center;
+text-align:center;
+font-size:12px;
+}
+
+/* phone */
+.phone{
 font-size:18px;
-letter-spacing:1px;
-text-align: center;
-} */
+text-align:center;
+}
+
+/* social icons */
+.social{
+justify-content:center;
+margin-left:0;
+}
+
+.social svg{
+padding:8px;
+}
+
+/* bottom */
+.footer-bottom{
+flex-direction:column;
+text-align:center;
+gap:8px;
+font-size:12px;
+}
 
 }
