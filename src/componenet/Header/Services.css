@@ -1,0 +1,120 @@
+.services{
+    padding:80px 10%;
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    background:#f4f1ea;
+    /* margin-top: 30px; */
+    
+}
+
+/* top tag */
+.services-tag{
+    background:#9b804e;
+    color:white;
+    border:none;
+    padding:6px 16px;
+    border-radius:6px;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.services h2{
+    font-size:42px;
+    color:#c7952d;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.services-desc{
+    max-width:850px;
+    margin:auto;
+    color:#555;
+    line-height:1.6;
+    margin-bottom:50px;
+}
+
+/* grid */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+/* cards */
+
+.service-card{
+    /* background:#f5ebd4; */
+    border:2px solid white;
+    padding:30px 25px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-6px);
+    background-color: #ffffff;
+    box-shadow: #e2dbcb 2px;
+}
+
+.icon{
+    font-size:38px;
+    color:#c7952d;
+    margin-bottom:15px;
+}
+
+.service-card h3{
+    color:#c7952d;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.service-card p{
+    font-size:14px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* button */
+
+.book-btn{
+    margin-top:40px;
+    background:#c7952d;
+    color:white;
+    border:none;
+    padding:12px 26px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.book-btn:hover{
+    background:#a97c22;
+}
+
+/* -------- responsive -------- */
+
+@media (max-width:1000px){
+
+.services-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:600px){
+
+.services{
+padding:60px 20px;
+}
+
+.services h2{
+font-size:30px;
+}
+
+.services-grid{
+grid-template-columns:1fr;
+}
+
+}

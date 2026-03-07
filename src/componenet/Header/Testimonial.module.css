@@ -1,0 +1,113 @@
+.test_wrapper{
+padding:100px 10%;
+text-align:center;
+background:#f5f5f5;
+font-family:'Inter',sans-serif;
+}
+
+/* heading */
+
+.test_head{
+max-width:800px;
+margin:auto;
+}
+
+.badge{
+background:#c7952d;
+color:white;
+padding:5px 12px;
+border-radius:6px;
+font-size:14px;
+}
+
+.test_head h2{
+font-size:42px;
+margin:15px 0;
+color:#b48a2c;
+}
+
+.test_head p{
+color:#555;
+line-height:28px;
+}
+
+
+/* slider */
+
+.test_slider{
+margin-top:50px;
+display:flex;
+gap:40px;
+overflow-x:auto;
+scroll-behavior:smooth;
+padding-bottom:20px;
+}
+
+/* hide scrollbar */
+
+.test_slider::-webkit-scrollbar{
+display:none;
+}
+
+
+/* card */
+
+.test_card{
+min-width:420px;
+max-width:420px;
+}
+
+.test_card p{
+font-size:18px;
+line-height:30px;
+color:#444;
+margin-bottom:20px;
+}
+
+.test_card h4{
+font-size:18px;
+font-weight:700;
+}
+
+.test_card span{
+color:#c7952d;
+font-weight:600;
+}
+
+
+/* button */
+
+.btn_box{
+margin-top:40px;
+}
+
+.book_btn{
+background:#c7952d;
+color:white;
+border:none;
+padding:14px 30px;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+transition:.3s;
+}
+
+.book_btn:hover{
+background:#a87720;
+transform:translateY(-3px);
+}
+
+
+/* responsive */
+
+@media(max-width:900px){
+
+.test_card{
+min-width:320px;
+}
+
+.test_head h2{
+font-size:32px;
+}
+
+}

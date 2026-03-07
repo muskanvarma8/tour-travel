@@ -1,0 +1,124 @@
+.contact_wrapper{
+    flex-direction: row !important;
+}
+.Reservation{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    /* background: url(./../../assets/contact-form-img.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    outline: 2px dashed #9b804e;
+    outline-offset: -10px;
+}
+.Reservation img{
+    width: 80px;
+}
+.Reservation::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #442e06e3;
+    z-index: -1;
+}
+.Reservation h2{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    /* width: 90%; */
+
+}
+.form{
+    width: 60%;
+}
+.form h3{
+    padding: 10px 7px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #9b804e;
+    color: white;
+}
+.form h2{
+    font-size: 50px;
+}
+.form p{
+    width: 90%;
+    margin-bottom: 30px;
+}
+input , textarea{
+    height: 100%;
+    width: 100%;
+    padding:  0px 20px;
+    font-size: 20px;
+    outline: none;
+}
+textarea{
+    height: 130px;
+    padding: 10px 20px;
+}
+.input_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.input_wrapper{
+    height: 43px;
+    width: 100%;
+    margin: 20px 0;
+}
+.form button{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1400px) {
+    .Reservation h2{
+    font-size: 30px;
+    }   
+}
+@media screen and (max-width:900px) {
+        .contact_wrapper{
+    flex-direction: column !important;
+}
+.Reservation{
+    width: 70%;
+}
+.form{
+    width: 100%;
+}
+.form p{
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width:768px) {
+        .Reservation{
+    width: 80%;
+}
+}
+@media screen and (max-width:500px) {
+        .Reservation{
+    /* width: 100%;  */
+    display: none;
+    }
+    .contact_wrapper{
+        margin-top: -100px;
+    }
+    .form{
+    width: 100%;
+   
+}
+.form h2{
+    font-size: 35px;
+}
+}
