@@ -65,8 +65,8 @@ function Staffs() {
                         <img src={staff_image_1} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Lishs</h3>
-                            <p>Lead House Keeper</p>
+                            <h3>Ujjain</h3>
+                           
                         </div>
                     </div>
                 </SwiperSlide>
@@ -75,8 +75,8 @@ function Staffs() {
                         <img src={staff_image_2} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Anika</h3>
-                            <p>Receptionist</p>
+                            <h3>Udaipur</h3>
+                          
                         </div>
                     </div>
                 </SwiperSlide>  
@@ -85,8 +85,8 @@ function Staffs() {
                         <img src={staff_image_3} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>David</h3>
-                            <p>Senior chef</p>
+                            <h3>Neemrana</h3>
+                          
                         </div>
                     </div>
                 </SwiperSlide>
@@ -96,8 +96,8 @@ function Staffs() {
                         <img src={staff_image_4} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Saraa</h3>
-                            <p>House keeping</p>
+                            <h3>Jodhpur</h3>
+                            
                         </div>
                     </div>
                 </SwiperSlide>
@@ -106,8 +106,8 @@ function Staffs() {
                         <img src={staff_image_5} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Anika</h3>
-                            <p>Receptionist </p>
+                            <h3>Jaisalmer</h3>
+                          
                         </div>
                     </div>
                 </SwiperSlide>
@@ -118,8 +118,8 @@ function Staffs() {
                         <img src={staff_image_6} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Jonson</h3>
-                            <p>Server</p>
+                            <h3>Jaipur</h3>
+                            
                         </div>
                     </div>
                 </SwiperSlide>
@@ -129,8 +129,8 @@ function Staffs() {
                         <img src={staff_image_7} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Lishs</h3>
-                            <p>Lead House Keeper</p>
+                            <h3>Jaipur</h3>
+                          
                         </div>
                     </div>
                 </SwiperSlide>
@@ -139,8 +139,8 @@ function Staffs() {
                         <img src={staff_image_8} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Anika</h3>
-                            <p>Receptionist</p>
+                            <h3>Haridwar</h3>
+                           
                         </div>
                     </div>
                 </SwiperSlide>  
@@ -149,8 +149,8 @@ function Staffs() {
                         <img src={staff_image_9} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>David</h3>
-                            <p>Senior chef</p>
+                            <h3>Delhi</h3>
+                           
                         </div>
                     </div>
                 </SwiperSlide>
@@ -160,8 +160,8 @@ function Staffs() {
                         <img src={staff_image_10} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Saraa</h3>
-                            <p>House keeping</p>
+                            <h3>Sikkim</h3>
+                            
                         </div>
                     </div>
                 </SwiperSlide>
@@ -170,8 +170,8 @@ function Staffs() {
                         <img src={staff_image_11} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Anika</h3>
-                            <p>Receptionist </p>
+                            <h3>Bharatpur</h3>
+                           
                         </div>
                     </div>
                 </SwiperSlide>
@@ -182,8 +182,8 @@ function Staffs() {
                         <img src={staff_image_12} alt="staff-image" />
 
                         <div className={staffsCSS.staff_details}>
-                            <h3>Jonson</h3>
-                            <p>Server</p>
+                            <h3>agra</h3>
+                            
                         </div>
                     </div>
                 </SwiperSlide>

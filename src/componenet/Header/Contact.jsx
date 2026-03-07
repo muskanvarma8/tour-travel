@@ -32,7 +32,7 @@ const [name, setName] = useState("");
     <div className={`${contactCSS.contact_wrapper} section`} id='contact'>
         <div className={contactCSS.Reservation}>
             <img src={element} alt="element-contact" />
-            <h2>Discover The Hotel Of Your Choice</h2>
+            <h2>Discover The World Of Your Choice</h2>
             <button>Register Now</button>
         </div>
         <div className={contactCSS.form}>

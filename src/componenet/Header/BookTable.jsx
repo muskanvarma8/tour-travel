@@ -1,7 +1,7 @@
 import React from 'react'
 import bookTableCSS from './../Header/BookTable.module.css';
 
-import TestimonialImg from "./../../assets/home-1-testimonial-1.jpg";
+import TestimonialImg from "./../../assets/home-testimonial-2.jpg";
 // import Card_Img_1 from "../../assets/Amenities-image-box-1.png";
 // import Card_Img_2 from "../../assets/Amenities-image-box-2.png";
 
