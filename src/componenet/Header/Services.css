@@ -9,7 +9,7 @@
 
 /* top tag */
 .services-tag{
-    background:#9b804e;
+    background:#c7952d;
     color:white;
     border:none;
     padding:6px 16px;
@@ -106,7 +106,8 @@ grid-template-columns:repeat(2,1fr);
 @media (max-width:600px){
 
 .services{
-padding:60px 20px;
+    margin-top: -50px;
+padding:30px 20px;
 }
 
 .services h2{
