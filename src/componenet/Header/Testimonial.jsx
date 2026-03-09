@@ -1,5 +1,6 @@
 import React from "react";
 import testCSS from "./../Header/Testimonial.module.css";
+import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   return (
@@ -13,8 +14,8 @@ const Testimonials = () => {
 
         <p>
           Our commitment to safe, comfortable, and reliable travel has made
-          <b> Taksh Tour & Travels </b>
-          one of the most trusted taxi services in Alwar.
+          <b> Manvik Tour & Travels </b>
+          one of the most trusted taxi services in A jaipur.
         </p>
 
       </div>
@@ -28,8 +29,8 @@ const Testimonials = () => {
 
           <p>
             Very professional and punctual service. The driver was polite,
-            the cab was clean, and the overall journey from Alwar to
-            Jaipur Airport was smooth. Highly recommended!
+            the cab was clean, and the overall journey from jaipur to
+            Delhi Airport was smooth. Highly recommended!
           </p>
 
           <h4>Riya Sharma</h4>
@@ -82,11 +83,12 @@ const Testimonials = () => {
 
       {/* BUTTON */}
 
-      <div className={testCSS.btn_box}>
+      {/* <div className={testCSS.btn_box}>
         <button className={testCSS.book_btn}>
           Book Taxi →
         </button>
-      </div>
+      </div> */}
+                   <Link to="/contact"> <button>Book a Taxi</button></Link>
 
     </section>
   );

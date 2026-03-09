@@ -1,10 +1,11 @@
 import React from "react";
 import "./Services.css";
 import { FaMapMarkerAlt, FaTaxi, FaPlaneDeparture, FaBuilding } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
 
       <button className="services-tag">Services</button>
 
@@ -56,11 +57,9 @@ const Services = () => {
           </p>
         </div>
 
-      </div>
+      </div> <br />
 
-      <button className="book-btn">
-        Book Taxi →
-      </button>
+      <Link to="/contact"> <button>Book a Taxi</button></Link>
 
     </section>
   );

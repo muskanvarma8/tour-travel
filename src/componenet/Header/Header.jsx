@@ -5,6 +5,7 @@ import 'swiper/css';
 import muskanImg1 from './../../assets/cab2.webp';
 import muskanImg2 from './../../assets/cab.webp';
 import muskanImg3 from './../../assets/cab5.webp';
+import { Link } from "react-router-dom";
 
 
 import { Autoplay } from 'swiper/modules';
@@ -29,7 +30,7 @@ function Header() {
               <div className={headerCSS.slide_content}>
     <h3 className={headerCSS.Swiper_Slider_h}>Travel With Comfort</h3>
      <p>Our support team is ready to assist you 24/7 with anything from rental questions to account setup. </p>
-    <button>Book a Taxi</button>
+      <Link to="/contact"> <button>Book a Taxi</button></Link>
        </div>
             </SwiperSlide>
            
@@ -38,7 +39,8 @@ function Header() {
                   <div className={headerCSS.slide_content}>
     <h3 className={headerCSS.Swiper_Slider_h}>Travel With Comfort</h3>
      <p>Our support team is ready to assist you 24/7 with anything from rental questions to account setup. </p>
-    <button className={headerCSS.slide_btn}>Book a Taxi</button>
+  
+     <Link to="/contact"> <button>Book a Taxi</button></Link>
        </div>
             </SwiperSlide>
 
@@ -46,7 +48,8 @@ function Header() {
                 <div className={headerCSS.slide_content}>
     <h3 className={headerCSS.Swiper_Slider_h}>Travel With Comfort</h3>
      <p>Our support team is ready to assist you 24/7 with anything from rental questions to account setup. </p>
-    <button className={headerCSS.slide_btn}>Book a Taxi</button>
+ 
+     <Link to="/contact"> <button>Book a Taxi</button></Link>
        </div>
             </SwiperSlide>
 
@@ -55,36 +58,7 @@ function Header() {
        </Swiper>
      </div>
 
-     {/* <div className={headerCSS.header_content}>
-      <small>Luxury</small>
-      <h2>Find Your Luxury Room <br /> & Enjoy Your Vacation</h2>
-
-      <div className={headerCSS.rating_container}>
-        <img src={muskanImg4} alt="rating-image" />
-        <span>4.9 Google Rating <br />Around Globe</span>
-      </div>
-
-      <div className={headerCSS.Booking_container}>
-        <div className={headerCSS.input_wrapper}>
-          <label> Check In : -</label>
-          <input type="date" />
-        </div>
-        <div className={headerCSS.input_wrapper}>
-          <label> Check Out : -</label>
-          <input type="date" />
-        </div>
-        <div className={headerCSS.input_wrapper}>
-          <label> Adults :-</label>
-          <input type="text" />
-        </div>
-        <div className={headerCSS.input_wrapper}>
-          <label> Children :-</label>
-          <input type="text" />
-        </div>
-        <button>Check Avaliability</button>
-      </div>
-
-     </div> */}
+    
     </div>
   );
 }

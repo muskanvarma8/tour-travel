@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import roomCSS from './../Header/Room.module.css';
+
+import { Link } from "react-router-dom";
+
 import staff_image_1 from './../../assets/slide1.webp'
 import staff_image_2 from './../../assets/slide2.webp'
 
@@ -92,7 +95,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                     <h2>Alwar to Jaipur Taxi Service</h2>
+                     <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Book a safe and affordable cab from Alwar to Jaipur for airport transfers, business meetings, or sightseeing. </p>
                    
                 </div>
@@ -105,7 +108,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                  <h2>Alwar to Jaipur Taxi Service</h2>
+                  <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Fast and punctual airport transfer service to Jaipur Airport with reliable pickup times and clean vehicles.</p>
                     
                 </div>
@@ -117,7 +120,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Comfortable long-distance travel to Delhi with professional, experienced drivers. Perfect for airport drops, work travel, and family trips. </p>
                     
                 </div>
@@ -130,7 +133,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>On-time airport pickup and drop service with fixed and transparent pricing for IGI Airport, New Delhi. </p>
                     
                 </div>
@@ -142,7 +145,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Quick and comfortable rides for business travelers, tourists, and corporate meetings. </p>
                     
                 </div>
@@ -157,7 +160,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Convenient taxi service for Bharatpur Bird Sanctuary, park visits, and day trips. </p>
                     
                 </div>
@@ -169,7 +172,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Book a comfortable outstation cab from Alwar to Jodhpur for family trips, business travel, or Rajasthan tourism.</p>
                     
                 </div>
@@ -181,7 +184,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Travel hassle-free to the Golden City with our reliable Alwar to Jaisalmer cab service. </p>
                   
                 </div>
@@ -193,7 +196,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Enjoy a smooth journey to Agra to visit the Taj Mahal or explore historical sites with our flexible one-way and round-trip options. </p>
                     
                 </div>
@@ -205,7 +208,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Suitable for Char Dham travelers, pilgrims, and families visiting Har Ki Pauri and nearby holy sites. </p>
                     
                 </div>
@@ -218,7 +221,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Comfortable and affordable taxi service from Alwar to Ujjain for temple visits, Mahakal Darshan, and family trips. </p>
                     
                 </div>
@@ -230,21 +233,21 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Alwar to Jaipur Taxi Service</h2>
+                      <h2>Jaipur to Delhi Taxi Service</h2>
                     <p>Plan your trip to the City of Lakes with our safe and affordable Alwar to Udaipur taxi service. </p>
                     
                 </div>
                     {/* <p className={roomCSS.price}> $45/Night</p> */}
             </div>
         </div>
-         <button>Book Taxi</button>
+       <Link to="/contact"> <button>Book a Taxi</button></Link>
 
           <div className={roomCSS.taxi}>
 
       <div className= {roomCSS.taxi_box}>
 
         <div className= {roomCSS.taxi_left}>
-          <p className={roomCSS.taxi_small}>Need a Taxi in Alwar?</p>
+          <p className={roomCSS.taxi_small}>Need a Taxi in jaipur?</p>
 
           <h2 className={roomCSS.taxi_title}>
             Book Your Taxi, Now!
@@ -257,16 +260,18 @@ image:car
         </div>
 
         <div className={roomCSS.taxi_right}>
-          <button className={roomCSS.taxi_btn}>
+         <Link to="/contact">  <button className={roomCSS.taxi_btn}>
             Book A Taxi <FaTaxi />
-          </button>
+          </button></Link>
+
+
         </div>
 
       </div>
 
     </div>
 
-    <div className={roomCSS.Room_title}>
+    <div className={roomCSS.Room_title} id='bookingTable'>
             <h4>Fleets</h4>
             <h2>Our Vehicles</h2>
             <p className= {roomCSS.Room_p}>we offer a wide range of well-maintained vehicles to ensure a safe and comfortable travel experience for every journey. From daily rides to long-distance trips, our fleet is perfect for families, tourists, and corporate clients.</p>
@@ -275,16 +280,12 @@ image:car
 
             <div className={roomCSS.cars_section}>
 
-<div className={roomCSS.car_tabs}>
+            <div className={roomCSS.car_tabs}>
 
-{cars.map((car,index)=>(
-<button
-key={index}
-className={active === index ? "tab active":"tab"}
-onClick={()=>setActive(index)}
->
-{car.name}
-</button>
+          {cars.map((car,index)=>(
+              <Link to="/contact">    <button key={index}className={active === index ? "tab active":"tab"} onClick={()=>setActive(index)}>
+                {car.name}
+              </button></Link>
 ))}
 
 </div>
@@ -311,7 +312,7 @@ onClick={()=>setActive(index)}
 </div>
 
 </div>
-<button>Book a Taxi</button>
+        <Link to="/contact"><button>Book a Taxi</button></Link> 
 
 
 
@@ -361,14 +362,14 @@ onClick={()=>setActive(index)}
 
         <div className={roomCSS.choose_btns}>
 
-          <button className={roomCSS.btn_outline}>
+        <Link to="/contact">   <button className={roomCSS.btn_outline}>
             Know More
-          </button>
+          </button></Link> 
 
-          <button className={roomCSS.btn_fill}>
+        <Link to="/contact">  <button className={roomCSS.btn_fill}>
             Book Taxi
-          </button>
-
+          </button></Link> 
+  
         </div>
 
       </div>

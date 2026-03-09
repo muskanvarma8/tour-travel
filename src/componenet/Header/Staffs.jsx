@@ -21,7 +21,7 @@ import staff_image_12 from './../../assets/slide12.webp'
 
 function Staffs() {
   return (
-    <div className={`${staffsCSS.Staff_wrapper}`} id='Staffs'>
+    <div className={`${staffsCSS.Staff_wrapper}`} id='blog'>
         <div className={staffsCSS.staff_title}>
                     <h4>Gallery</h4>
                     <h2>Our Memories</h2>

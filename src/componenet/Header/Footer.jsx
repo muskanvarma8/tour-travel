@@ -18,7 +18,7 @@ const Footer = () => {
           <p>
             Experience the cleanest, most comfortable, and well-maintained cabs
             in the city. Whether it's a short ride or a city wide journey,
-            Taksh Tour & Travels ensures a smooth and happy journey every time.
+            Manvik Tour & Travels ensures a smooth and happy journey every time.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>
           Copyright © 2026 –
-          <span> Taksh Tour & Travels</span>.
+          <span> Manvik Tour & Travels</span>.
           All Rights Reserved.
         </p>
 

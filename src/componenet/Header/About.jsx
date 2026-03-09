@@ -2,6 +2,7 @@ import React from 'react'
 import aboutCSS from './../Header/About.module.css';
 import aboutImg1 from './../../assets/img1.webp';
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 function About() {
@@ -23,7 +24,7 @@ function About() {
            
             <div className={aboutCSS.About_cll}>
            <button className={aboutCSS.About_b}>Know More</button>
-            <button>Book Taxi</button>
+            <Link to="/contact"> <button>Book a Taxi</button></Link>
 
             <div className={aboutCSS.call_box}>
       <div className={aboutCSS.call_icon}>

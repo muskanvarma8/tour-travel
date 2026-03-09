@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import navCSS from './Nav.module.css';
 // import hhh from './../assets/combination-number-letter-d-becomes-u-logo-227791298.jpg'
 import loggo from './../assets/logo-removebg-preview.png'
+import { Link } from "react-router-dom";
+
 
 function Nav() {
 
@@ -48,18 +50,17 @@ function Nav() {
 
             </div>
             <ul ref={menu}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About US</a></li>
-                <li><a href="#rooms">Services</a>
-                    </li>
-                <li><a href="#bookingTable">Gallery</a></li>
-                <li><a href="#offer">Blogs</a></li>
-               
-                <li><a href="#contact">Contact US</a></li>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About US</a></li>
+                <li><a href="/#services">Services</a> </li>
+                <li><a href="/#bookingTable">Gallery</a></li>
+                <li><a href="/#blog">Blogs</a></li>
+               <li><a href="/#contact">Contact</a></li>
+              
             </ul>
 
            <div className={navCSS.navBtns}>
-            <button>Book a Taxi</button>
+           <Link to="/contact"> <button>Book a Taxi</button></Link>
             <div className={navCSS.bars} onClick={menuHandler}>
             
                 <span></span>

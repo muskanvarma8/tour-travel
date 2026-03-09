@@ -382,7 +382,12 @@ background:#a87313;
 }
 }
 
-
+@media screen and (max-width:380px) {
+    .car_tabs{
+      grid-template-columns: repeat(2, 1fr);
+    }
+   
+}
 
 @media (max-width:1000px){
 
