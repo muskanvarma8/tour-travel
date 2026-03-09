@@ -14,17 +14,22 @@ const [name, setName] = useState("");
     
 
     function handleSubmit(e) {
-          
+            e.preventDefault();
 
-           if (  name === name && phone.length === 10 && email === email) {
-                alert("msg send successful");
-       
-    } 
-    else {
-      
-      alert("Please fill in all fields correctly. Phone number must be 10 digits long.");
-     
-    }
+      if (name.trim().length < 4) {
+    alert("Please enter your name");
+  } 
+
+   else if (email.trim() === "") {
+    alert("Please enter your email");
+  } 
+   
+  else if (phone.length !== 10) {
+    alert("Phone number must be 10 digits");
+  } 
+  else {
+    alert("Msg send successful");
+  }
     }
 
 
@@ -44,10 +49,10 @@ const [name, setName] = useState("");
         
             <div className={contactCSS.input_container}>
                 <div className={contactCSS.input_wrapper}>
-                    <input type="text" placeholder='Enter First Name' value={name} onChange={(e) => setName(e.target.value)} />
+                    <input type="text" placeholder='Enter your Name' value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
                   <div className={contactCSS.input_wrapper}>
-                    <input type="text" placeholder='subject' required/>
+                    <input type="text" placeholder='Address' required/>
                 </div>
             </div>
              <div className={contactCSS.input_container}>

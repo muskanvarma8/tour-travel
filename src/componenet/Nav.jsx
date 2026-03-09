@@ -3,6 +3,9 @@ import navCSS from './Nav.module.css';
 // import hhh from './../assets/combination-number-letter-d-becomes-u-logo-227791298.jpg'
 import loggo from './../assets/logo-removebg-preview.png'
 import { Link } from "react-router-dom";
+import { FaInstagram, FaFacebook, FaYoutube} from "react-icons/fa6";
+
+
 
 
 function Nav() {
@@ -32,11 +35,10 @@ function Nav() {
                 <span>rajujat10092003@gmail.com</span>
             </div>
             <div className={navCSS.right_side}>
-                <span>ENG-</span>
-                <span>FR-</span>
-                <span>BT-</span>
-                <span>SP-</span>
-                <span>FB-</span> 
+                 <FaInstagram  className={navCSS.right_icon}/>
+                 <FaFacebook className={navCSS.right_icon}/>
+                <FaYoutube className={navCSS.right_icon}/>
+               
             </div>
         </div>
         

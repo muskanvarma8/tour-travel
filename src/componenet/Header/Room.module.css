@@ -380,11 +380,13 @@ background:#a87313;
     /* align-items: center; */
     margin-top: -100px;
 }
+
 }
 
-@media screen and (max-width:380px) {
+@media screen and (min-width:370px) {
     .car_tabs{
       grid-template-columns: repeat(2, 1fr);
+      
     }
    
 }
@@ -452,11 +454,10 @@ grid-template-columns:1fr;
 padding:10px 20px;
 font-size:14px;
 }
-
+.car_tabs{
+      grid-template-columns: repeat(2, 1fr);
+    }
 .car_info h2{
 font-size:28px;
 }
-
-
-
 }

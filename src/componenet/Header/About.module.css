@@ -235,4 +235,11 @@
     
 
 }
+@media screen and (max-width:380px){
+    .About_cll{
+  /* flex-direction:column; */
+  /* align-items:flex-start; */
+  grid-template-columns:repeat(2,1fr);
+}
+}
 

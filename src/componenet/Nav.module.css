@@ -36,10 +36,13 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
-.right_side{
-    display: flex;
+.right_icon{
+    /* display: flex; */
     align-items: center;
-    gap: 5px;
+    font-size: 25px;
+    color: #c7952d;
+    /* gap: 50px; */
+    margin-left: 10px;
 }
 .right_side span{
     font-size: 14px;

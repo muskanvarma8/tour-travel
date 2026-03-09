@@ -283,9 +283,9 @@ image:car
             <div className={roomCSS.car_tabs}>
 
           {cars.map((car,index)=>(
-              <Link to="/contact">    <button key={index}className={active === index ? "tab active":"tab"} onClick={()=>setActive(index)}>
+                 <button key={index}className={active === index ? "tab active":"tab"} onClick={()=>setActive(index)}>
                 {car.name}
-              </button></Link>
+              </button>
 ))}
 
 </div>
