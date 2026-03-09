@@ -180,7 +180,7 @@
 }
 @media screen and (max-width:500px){
     .About_wrapper{
-        margin-top: -180px;
+        margin-top: -150px;
     }
     .About_cards{
         grid-template-columns: repeat(1,1fr);
