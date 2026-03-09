@@ -271,7 +271,7 @@ image:car
 
     </div>
 
-    <div className={roomCSS.Room_title} id='bookingTable'>
+    <div className={roomCSS.Room_title} id='gallery'>
             <h4>Fleets</h4>
             <h2>Our Vehicles</h2>
             <p className= {roomCSS.Room_p}>we offer a wide range of well-maintained vehicles to ensure a safe and comfortable travel experience for every journey. From daily rides to long-distance trips, our fleet is perfect for families, tourists, and corporate clients.</p>
