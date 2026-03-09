@@ -146,6 +146,7 @@ border:8px solid #c28b1d;
 
 .addressBox{
 flex:1;
+height:300px;
 background:#c8a04a;
 padding:40px 30px;
 border-radius:20px;
@@ -199,6 +200,7 @@ height:250px;
 
 .addressBox{
 width:100%;
+height: 250px;
 }
 
 }
