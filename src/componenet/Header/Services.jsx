@@ -26,7 +26,7 @@ const Services = () => {
           <h3>LOCAL TAXI</h3>
           <p>
             Fast, safe, and convenient taxi service for city rides,
-            market visits, office travel, and daily commuting within Alwar.
+            market visits, office travel, and daily commuting within Jaipur.
           </p>
         </div>
 

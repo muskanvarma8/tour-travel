@@ -85,7 +85,7 @@ image:car
         <div className={roomCSS.Room_title}>
             <h4>Tours</h4>
             <h2>Popular Routes</h2>
-            <p className= {roomCSS.Room_p}>Travel comfortably across Rajasthan and nearby cities with our reliable <b>Manvik Tour & Travels cab services.</b>  Taksh Tour & Travels offers fixed pricing, professional drivers, and clean vehicles for all major routes.</p>
+            <p className= {roomCSS.Room_p}>Travel comfortably across Rajasthan and nearby cities with our reliable <b>Manvik Tour & Travels cab services.</b>  and offers fixed pricing, professional drivers, and clean vehicles for all major routes.</p>
         </div>
 
         <div className={roomCSS.Room_cards}>
@@ -96,7 +96,7 @@ image:car
 
                 <div className={roomCSS.Room_card_info}>
                      <h2>Jaipur to Delhi Taxi Service</h2>
-                    <p>Book a safe and affordable cab from Alwar to Jaipur for airport transfers, business meetings, or sightseeing. </p>
+                    <p>Book a safe and affordable cab from jaipur to Delhi for airport transfers, business meetings, or sightseeing. </p>
                    
                 </div>
                     {/* <p className={roomCSS.price}> $45/Night</p> */}
@@ -173,7 +173,7 @@ image:car
 
                 <div className={roomCSS.Room_card_info}>
                       <h2>Jaipur to Delhi Taxi Service</h2>
-                    <p>Book a comfortable outstation cab from Alwar to Jodhpur for family trips, business travel, or Rajasthan tourism.</p>
+                    <p>Book a comfortable outstation cab from Jaipur to Jodhpur for family trips, business travel, or Rajasthan tourism.</p>
                     
                 </div>
                     {/* <p className={roomCSS.price}> $59/Night</p> */}
@@ -185,7 +185,7 @@ image:car
 
                 <div className={roomCSS.Room_card_info}>
                       <h2>Jaipur to Delhi Taxi Service</h2>
-                    <p>Travel hassle-free to the Golden City with our reliable Alwar to Jaisalmer cab service. </p>
+                    <p>Travel hassle-free to the Golden City with our reliable Jaipur to Jaisalmer cab service. </p>
                   
                 </div>
                     {/* <p className={roomCSS.price}> $59/Night</p> */}
@@ -196,7 +196,7 @@ image:car
                 </div>
 
                 <div className={roomCSS.Room_card_info}>
-                      <h2>Jaipur to Delhi Taxi Service</h2>
+                      <h2>Delhi to Jaipur Taxi Service</h2>
                     <p>Enjoy a smooth journey to Agra to visit the Taj Mahal or explore historical sites with our flexible one-way and round-trip options. </p>
                     
                 </div>
@@ -222,7 +222,7 @@ image:car
 
                 <div className={roomCSS.Room_card_info}>
                       <h2>Jaipur to Delhi Taxi Service</h2>
-                    <p>Comfortable and affordable taxi service from Alwar to Ujjain for temple visits, Mahakal Darshan, and family trips. </p>
+                    <p>Comfortable and affordable taxi service from Jaipur to Ujjain for temple visits, Mahakal Darshan, and family trips. </p>
                     
                 </div>
                     {/* <p className={roomCSS.price}> $45/Night</p> */}
@@ -234,7 +234,7 @@ image:car
 
                 <div className={roomCSS.Room_card_info}>
                       <h2>Jaipur to Delhi Taxi Service</h2>
-                    <p>Plan your trip to the City of Lakes with our safe and affordable Alwar to Udaipur taxi service. </p>
+                    <p>Plan your trip to the City of Lakes with our safe and affordable Jaipur to Udaipur taxi service. </p>
                     
                 </div>
                     {/* <p className={roomCSS.price}> $45/Night</p> */}
@@ -338,7 +338,7 @@ image:car
         <p>
           At <b>Manvik Tour & Travels</b>, we focus on delivering a safe,
           reliable, and comfortable travel experience for every customer.
-          Whether it's a short ride in Alwar or a long-distance trip across
+          Whether it's a short ride in Jaipur or a long-distance trip across
           Rajasthan.
         </p>
 

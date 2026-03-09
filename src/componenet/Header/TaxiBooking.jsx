@@ -136,7 +136,7 @@ const TaxiBooking = () => {
         {/* LEFT SECTION */}
 
         <div className="left-box">
-          <h1>Book Taxi in Alwar – Fast, Safe & Reliable Cab Service</h1>
+          <h1>Book Taxi in Jaipur – Fast, Safe & Reliable Cab Service</h1>
 
           <p className="subtext">
             Instant booking for local travel, outstation trips, airport pickup &
@@ -150,7 +150,7 @@ const TaxiBooking = () => {
             <span>✔ Transparent Pricing</span>
           </div>
 
-          <h3>Why Book with Taksh Tour & Travels?</h3>
+          <h3>Why Book with Manvik Tour & Travels?</h3>
 
           <ul className="points">
             <li>Professional & verified drivers</li>

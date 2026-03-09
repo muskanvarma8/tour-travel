@@ -58,7 +58,7 @@ const Footer = () => {
 
           <p className="contact">
             <FaMapMarkerAlt />
-            NARAYAN VIHARROAD GANPATPURA, jaipur (Raj.) 301001
+            NARAYAN VIHAR ROAD GANPATPURA, jaipur (Raj.) 302001
           </p>
 
           <p className="support">24x7 Support Center</p>
@@ -66,9 +66,9 @@ const Footer = () => {
           <h2 className="phone">+91-7210806602</h2>
 
           <div className="social">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaYoutube />
+            <FaFacebookF  className="scl"/>
+            <FaInstagram className="scl"/>
+            <FaYoutube className="scl"/>
           </div>
         </div>
 

@@ -43,6 +43,10 @@
     color: #c7952d;
     /* gap: 50px; */
     margin-left: 10px;
+    transition: 0.3s;
+}
+.right_icon:hover{
+   transform: scale(1.3);
 }
 .right_side span{
     font-size: 14px;

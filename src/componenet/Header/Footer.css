@@ -109,16 +109,24 @@ margin-top:15px;
 /* align-items: center; */
 align-content: center;
 margin-left: 70px;
-/* color: white; */
+/* color: white; */ 
 }
 
 .social svg{
-border:1px solid #555;
+border:2px solid #555;
 padding:10px;
 border-radius:50%;
 cursor:pointer;
 transition:0.3s;
-color: white;
+/* color: white; */
+color: #d4a437;
+}
+.scl{
+    color: #d4a437 !important;
+    font-size: 40px;
+}
+.scl:hover{
+    background-color: white;
 }
 
 /* hover */
@@ -253,8 +261,9 @@ justify-content:center;
 margin-left:0;
 }
 
+
 .social svg{
-padding:8px;
+/* padding:8px; */
 }
 
 /* bottom */
