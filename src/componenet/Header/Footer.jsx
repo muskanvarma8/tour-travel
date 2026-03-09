@@ -16,8 +16,8 @@ const Footer = () => {
           <img  src={loggo} alt="" />
 
           <p>
-            Experience the cleanest, most comfortable, and well-maintained cabs
-            in the city. Whether it's a short ride or a city wide journey,
+            Experience the most comfortable and well-maintained cabs
+            in the city.
             Manvik Tour & Travels ensures a smooth and happy journey every time.
           </p>
         </div>
