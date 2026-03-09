@@ -37,7 +37,7 @@ function Header() {
 
             <SwiperSlide><img src={muskanImg3} alt="header-slider-image" />
                   <div className={headerCSS.slide_content}>
-    <h3 className={headerCSS.Swiper_Slider_h}>Travel With Comfort</h3>
+    <h3 className={headerCSS.Swiper_Slider_h}>Reliable Taxi & Cab <br /> Service in Jaipur</h3>
      <p>Our support team is ready to assist you 24/7 with anything from rental questions to account setup. </p>
   
      <Link to="/contact"> <button>Book a Taxi</button></Link>
@@ -46,7 +46,7 @@ function Header() {
 
             <SwiperSlide><img src={muskanImg1} alt="header-slider-image" />
                 <div className={headerCSS.slide_content}>
-    <h3 className={headerCSS.Swiper_Slider_h}>Travel With Comfort</h3>
+    <h3 className={headerCSS.Swiper_Slider_h}>Trusted Corporate <br /> Travel Partner</h3>
      <p>Our support team is ready to assist you 24/7 with anything from rental questions to account setup. </p>
  
      <Link to="/contact"> <button>Book a Taxi</button></Link>
