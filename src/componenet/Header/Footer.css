@@ -103,12 +103,12 @@ text-align: center;
 
 .social{
 display:flex;
-gap:12px;
+/* gap:12px; */
 margin-top:15px;
 /* text-align: center; */
 /* align-items: center; */
 align-content: center;
-margin-left: 70px;
+/* margin-left: 70px; */
 /* color: white; */ 
 }
 
@@ -120,6 +120,7 @@ cursor:pointer;
 transition:0.3s;
 /* color: white; */
 color: #d4a437;
+margin-left: 30px;
 }
 .scl{
     color: #d4a437 !important;

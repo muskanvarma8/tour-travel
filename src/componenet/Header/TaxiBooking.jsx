@@ -94,10 +94,9 @@ const TaxiBooking = () => {
 
   emailjs
     .send(
-      "service_1ucfi7h",
-      "template_33sat1m",
+     
       formData,
-      "FICpmR42VusHE0c11"
+     
     )
     .then(() => {
 

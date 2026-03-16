@@ -23,6 +23,7 @@ function Home() {
       <About />
       <Services />
       <Room />
+      
       <Staffs />
       <Testimonial />
       <BookTable />

@@ -28,6 +28,8 @@ import car from './../../assets/car.webp'
 import img2 from "../../assets/img-2.webp";
 
 import { FaCheck, FaMagic, FaDollarSign, FaClock, FaMap, FaUsers } from "react-icons/fa";
+import TaxiPrize from './TaxiPrize';
+
 
 function Room() {
 
@@ -78,6 +80,9 @@ image:car
 ];
 
      const [active,setActive] = useState(0);
+
+
+     
 
 
   return (
@@ -240,7 +245,11 @@ image:car
                     {/* <p className={roomCSS.price}> $45/Night</p> */}
             </div>
         </div>
-       <Link to="/contact"> <button>Book a Taxi</button></Link>
+
+           <Link to="/contact"> <button>Book a Taxi</button></Link>
+           <TaxiPrize/>
+
+      
 
           <div className={roomCSS.taxi}>
 
@@ -258,6 +267,10 @@ image:car
             Outstation, Airport & Corporate Travel Available 24×7.
           </p>
         </div>
+
+
+          
+          
 
         <div className={roomCSS.taxi_right}>
          <Link to="/contact">  <button className={roomCSS.taxi_btn}>
