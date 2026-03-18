@@ -13,7 +13,7 @@ function About() {
            <div className={aboutCSS.About_content}>
              <h3 className={aboutCSS.About_h}><i>Welcome</i></h3>
             <h2>  <span>Manvik Tour & Travels </span>  </h2>
-            <h3 className={aboutCSS.About_h}><i>Book Safe & Reliable Taxi in Alwar – 24×7 Availability </i></h3>
+            <h3 className={aboutCSS.About_h}><i>Book Safe & Reliable Taxi in Jaipur – 24×7 Availability </i></h3>
 
             <p className= {aboutCSS.About_p}>Manvik Tour & Travels  is a trusted travel and taxi service provider in jaipur, Rajasthan, offering reliable local, outstation, airport, and corporate cab services.
                With professional drivers, well-maintained vehicles, and transparent pricing, we ensure a safe and comfortable travel experience every time. <br /><br />

@@ -33,7 +33,7 @@ function BookTable() {
                     {/* <img src={Card_Img_1} alt="card-image" /> */}
 
                     <div className={bookTableCSS.card_content}>
-                        <h3> NARAYAN VIHARROAD GANPATPURA, jaipur (Raj.) 301001</h3>
+                        <h3> NARAYAN VIHAR ROAD GANPATPURA, jaipur (Raj.) 302001</h3>
                         <p>Travel comfortably across Rajasthan and nearby cities with our reliable jaipur taxi and outstation cab services. </p>
                         <a href="#">Book a Taxi</a>
                     </div>

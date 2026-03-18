@@ -15,7 +15,7 @@ const Testimonials = () => {
         <p>
           Our commitment to safe, comfortable, and reliable travel has made
           <b> Manvik Tour & Travels </b>
-          one of the most trusted taxi services in A jaipur.
+          one of the most trusted taxi services in jaipur.
         </p>
 
       </div>
@@ -56,7 +56,7 @@ const Testimonials = () => {
         <div className={testCSS.test_card}>
 
           <p>
-            Excellent taxi service in Alwar. Affordable pricing and
+            Excellent taxi service in Jaipur. Affordable pricing and
             very professional drivers. Booking process was very easy.
           </p>
 
