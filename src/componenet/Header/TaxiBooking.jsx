@@ -175,7 +175,7 @@ const TaxiBooking = () => {
 
               <div className="call-text">
                 <span>Call Us Now!</span>
-                <p>+91-9529565656</p>
+                <p>+91-7210806602</p>
               </div>
             </div>
 

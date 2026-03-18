@@ -33,7 +33,7 @@ function About() {
 
       <div className={aboutCSS.call_text}>
         <p>Call Us Now!</p>
-        <h4>+91-9529565656</h4>
+        <h4>+91-7210806602</h4>
       </div>
       </div>
 
